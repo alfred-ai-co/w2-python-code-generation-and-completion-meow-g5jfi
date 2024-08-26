@@ -15,3 +15,5 @@ class ProjectResponse(ProjectCreate):
     class Config:
         from_attributes = True
 
+class TicketCreate(BaseModel):
+    name: str
